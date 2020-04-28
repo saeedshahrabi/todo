@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+$gray:#848484;
+$green:#47ab47;
+li.todo-item {
+    color: $gray;
+    padding-left: 15px;
+}
+.todo-done {
+    text-decoration: line-through;
+
+    color: $green !important;
+}

@@ -1,0 +1,43 @@
+@import "~bootstrap/scss/bootstrap";
+$goldColor:#ab915c;
+$border:none;
+$none:none;
+$ff:verdana;
+$gray:#848484;
+.title{
+    color:$goldColor;
+    font-family: $ff;
+    margin: 52px 0;
+}
+.input-group.inputs_name >input:focus {
+    outline: $none;
+    box-shadow: $none;
+}
+.input-group.inputs_name >input {
+    border: $border;
+    background: transparent;
+    border-bottom: 1px solid;
+    color: $goldColor;
+    border-radius: 0;
+    padding-bottom: 11px;
+    outline: $none;
+}
+p.todo-item {
+    color: #848484;
+}
+button#btns {
+    background: transparent;
+    border: $border;
+    color: $goldColor;
+    border-radius: 0;
+    transform: rotate(45deg);
+    position: relative;
+    left: -24px;
+    outline: $none;
+}
+button#btns:focus {
+    box-shadow: $none;
+}
+.input-group.inputs_name {
+    margin-bottom: 47px;
+}

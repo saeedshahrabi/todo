@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+$black:#2a2a2a;
+$rel:relative;
+$abs:absolute;
+$gray:#323232;
+$height:100vh;
+$br:5px;
+$box-shadow:0px 0px 2px #616161;
+body{
+    background: url("./../../img/02.jpg");
+    background-size:cover ;
+    background-attachment: fixed;
+    height: $height;
+}
+.row1{
+    background: url(./../../img/01.jpg) repeat-y;
+    background-color: $black;
+    border-radius: $br;
+    box-shadow: $box-shadow;
+}
+.row1>div{
+    min-height: 500px;
+   
+}   
+.row1 .col-md-8{
+    background-color: $gray;
+
+}
+
